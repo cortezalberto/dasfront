@@ -4,8 +4,7 @@ import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import TableComponent from "../Table/Table";
 import SearchBar from "../common/SearchBar";
 import { Add } from "@mui/icons-material";
-import BackendClient from "../../services/BackendClient";
-import IArticuloInsumo from "../../types/ArticuloInsumo";
+
 import { setArticuloInsumo } from "../../redux/slices/articuloInsumo";
 import InsumoService from "../../services/InsumoService";
 

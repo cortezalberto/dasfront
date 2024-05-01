@@ -5,8 +5,7 @@ import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import TableComponent from "../Table/Table";
 import SearchBar from "../common/SearchBar";
 import PromocionType from "../../types/Promocion";
-import IPromocion from "../../types/Promocion";
-import BackendClient from "../../services/BackendClient";
+
 import { setPromocion } from "../../redux/slices/Promocion";
 import PromocionService from "../../services/PromocionService";
 
