@@ -3,7 +3,7 @@ import { Box, Typography, Button, Container } from '@mui/material';
 import { Add } from '@mui/icons-material';
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
 import SearchBar from '../common/SearchBar';
-import BackendClient from '../../services/BackendClient';
+
 import CategoriaLista from '../Categoria/CategoriaLista';
 import ICategoria from '../../types/Categoria';
 import { setCategoria } from '../../redux/slices/categoria';

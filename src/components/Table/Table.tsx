@@ -23,8 +23,8 @@ const TableComponent: React.FC<Props> = ({ data, columns }) => {
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [orderBy, setOrderBy] = useState<keyof Row>('');
   const [order, setOrder] = useState<'asc' | 'desc'>('asc');
-
-  const handleChangePage = (event: unknown, newPage: number) => {
+// corregi como anónimo
+  const handleChangePage = (_event: unknown, newPage: number) => {
     setPage(newPage);
   };
 
